@@ -1,0 +1,33 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.*
+*.credentials
+.credentials
+
+# Private working materials
+00_project_files/
+
+# Virtual environments
+.venv/
+venv/
+
+# Caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build outputs, including locally built skill archives
+build/
+dist/
+skill-dist/
+*.egg-info/

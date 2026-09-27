@@ -1,0 +1,12 @@
+[
+  {"query": "Give me a scorecard for this project: docs, tests, CI, packaging", "should_trigger": true},
+  {"query": "Review the github project at https://github.com/petehottelet/smythe and rate it 1-10", "should_trigger": true},
+  {"query": "How would a stranger rate this repo on GitHub?", "should_trigger": true},
+  {"query": "I'm about to open-source this. What's missing before PyPI?", "should_trigger": true},
+  {"query": "Before we tag 1.0, audit the repo and tell me what blocks a release", "should_trigger": true},
+  {"query": "Review this PR diff for bugs", "should_trigger": false},
+  {"query": "Audit my dependencies for known vulnerabilities", "should_trigger": false},
+  {"query": "Publish my package to PyPI — build it and upload with twine.", "should_trigger": false},
+  {"query": "Package ./my-skill into a .skill file", "should_trigger": false},
+  {"query": "Improve the README so it's clearer", "should_trigger": false}
+]
